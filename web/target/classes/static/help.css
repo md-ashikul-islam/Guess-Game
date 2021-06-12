@@ -1,0 +1,76 @@
+*{
+	padding:0;
+	margin: 0;
+}
+.full{
+	background: url(pac3.jpg);
+	background-size: contain;
+	height: 100vh;
+    background-position: center;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    
+}
+.navbar{
+	position:fixed;
+	height: 70px;
+	width: 100%;
+	top: 5px;
+	left: 0;
+	background: #212124;
+    text-shadow: 4px 3px 0 #7A7A7A;
+}
+.navbar .logo{
+	width: 90px;
+	height: 90px;
+	padding: 10px 90px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 14px;
+	display: inline-block;
+	line-height: 80px;
+   
+}
+li{
+    font-size: 50px;
+    font-variant: small-caps;
+}
+.navbar ul li a{
+	font-size: 18px;
+	font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 3px 0 #7A7A7A;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .6s;
+    text-shadow: 4px 3px 0 #7A7A7A;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:#4b54c9;
+	border-radius: 50px;
+}
+.navbar ul li:nth-child(1) a:hover{
+    background-color: #c8350a;
+}
+.navbar ul li:nth-child(2) a:hover{
+    background-color: #62cfe4;
+}
+h3{
+    text-shadow: 4px 3px 0 #7A7A7A;
+   position: absolute;
+   top:20%;
+   left:15%
+}
+p{
+    word-spacing: normal;
+    position: absolute;
+    top:30%;
+    left:15%;
+    line-height: 2;
+}

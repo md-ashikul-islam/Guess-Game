@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/game.css}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="full">
+    <nav class="navbar">
+        <img class="logo" src="/q1.png">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a th:href="@{about-us}">About</a></li>
+            <li><a th:href="@{help}">Help</a></li>
+        </ul>
+    </nav>
+    <div class="headline">
+        <h1>Welcome to Guess the Number Game</h1>
+        <div class="getstarted">
+            <button><a th:href="play">Play</a></button>
+            <button><a herf="#">Settings</a></button>
+        </div>
+    </div>
+    <div class="social-items">
+        <h3>Follow us on</h3>
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i> </a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

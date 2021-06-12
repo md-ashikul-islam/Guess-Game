@@ -1,0 +1,8 @@
+guess\game\config\WebConfig.class
+guess\game\util\AttributeNames.class
+guess\game\util\ViewNames.class
+guess\game\controller\GameController.class
+guess\game\WebMain.class
+guess\game\service\GameService.class
+guess\game\service\GameServiceImpl.class
+guess\game\util\GameMappings.class

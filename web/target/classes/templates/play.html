@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/play.css}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="whole-page">
+<div align="center">
+    <h1>Guess the number Game</h1>
+    <h3 class="head" th:text="${mainMessage}">
+        Main Message Content
+    </h3>
+    <h3 class="content" th:text="${resultMessage}">
+        Result Message Content
+    </h3>
+
+    <form action="play" method="post">
+        <label for="guess">Enter Your Guess</label>
+        <input id="guess" type="number" name="guess"/>
+        <input class="button" type="submit" value="Submit"/>
+    </form>
+
+    <footer th:replace="fragments/footer :: footerFragment">
+        <p>Created By Ashik & Maymuna</p>
+    </footer>
+
+</div>
+</body>
+</html>

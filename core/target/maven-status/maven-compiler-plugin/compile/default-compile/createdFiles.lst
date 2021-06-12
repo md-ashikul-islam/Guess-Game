@@ -1,8 +1,10 @@
-guess\game\AppConfig.class
+guess\game\MinNumber.class
+guess\game\MaxNumber.class
 guess\game\Game.class
+guess\game\GuessCount.class
 guess\game\MessageGenerator.class
 guess\game\numberGenerator.class
-guess\game\Main.class
 guess\game\MessageGeneratorImpl.class
 guess\game\numberGeneratorImp.class
 guess\game\GameImpl.class
+guess\game\config\GameConfig.class

@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+.whole-page{
+    background: url(oh1.jpg);
+    background-size: cover;
+    height: 110vh;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color:white;
+    font-variant: small-caps;
+}
+h1{
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+.head{
+    font-weight:bolder ;
+    text-align: center;
+    position:absolute;
+    top:25%;
+    left:37%;
+    font-size: 25px;
+}
+.content{
+    position:absolute;
+    top:35%;
+    left:37%;
+    font-size: 24px;
+}
+form{
+    position: absolute;
+    top:50%;
+    left:35%;
+    font-weight:bolder ;
+}
+.button{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    height: 40px;
+    width: 140px;
+    font-size:15px;
+    font-weight:normal;
+    background:#e9ab2e;
+    opacity: 0.9;
+	border-radius: 50px;
+    border: 6px solid #feca57;
+    color:white;
+    font-variant: small-caps;
+    transition: 0.6s;
+}
+.button:hover{
+    background:#e59d15;
+    border:0px;
+    transform: translate(0,-8px);
+}
+.restartButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.homeButton{
+    position: absolute;
+    top:40%;
+    left: 50%;
+}
+button{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    height: 40px;
+    width: 140px;
+    font-size:15px;
+    font-weight:normal;
+    background:#e9ab2e;
+    opacity: 0.9;
+    border-radius: 50px;
+    border: 6px solid #feca57;
+    color:white;
+    font-variant: small-caps;
+    transition: 0.6s;
+}
+button:hover {
+    background: #e59d15;
+    border: 0px;
+    transform: translate(0, -8px);
+}
+
+footer{
+    position:absolute;
+    top:100%;
+    left:39%;
+}

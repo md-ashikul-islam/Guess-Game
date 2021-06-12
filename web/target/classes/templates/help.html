@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Help | Guess the Number</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/help.css}">
+</head>
+<body>
+	<div class="full">
+			<nav class="navbar">
+				<img class="logo" src="q1.png">
+				<ul>
+					<li><a href="game.html">Home</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+            <h3>HELP-</h3>
+            <p>This is a simple guessing game where you have to guess the number between 1 to 100. You will have certain amount of attempts. After each attempt the range will be decreased depending on your guess. For example, if you guess 10 but the secret number is greater than 10, then the range will become 10 to 100. Let's see how many guesses do you need before hitting the jackpot!</p>
